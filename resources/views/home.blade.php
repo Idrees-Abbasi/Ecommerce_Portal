@@ -31,13 +31,16 @@
 
 <section class="my-5">
     <div class="container">
-    <h1 class="mb-3">Top Deals</h1>
+    <div class="d-flex">
+        <div class="flex-grow-1"><h2>Top Deals</h2></div>
+        <div><a href="#" class="btn btn-sm theme-green-btn text-light">View All</a></div>
+    </div>
         <div class="row theme-product">
             <div class="col-lg-3">
                 <div class="card">
                 <a href="#"><img src="{{ asset ('assets/images/products/5p.jpg') }}" class="card-img-top" alt="..."></a>
                 <div class="card-body">
-                    <h6 class="card-title text-center">Two Chair</h6>
+                    <h6 class="card-title text-center"><a href="#" class="text-dark text-decoration-none">Chairs</a></h6>
                     <h5 class="card-title text-center">Rs. 11,499.00</h5>
                 </div>
                 </div>
@@ -47,7 +50,7 @@
                 <div class="card">
                 <a href="#"><img src="{{ asset ('assets/images/products/2p.jpg') }}" class="card-img-top" alt="..."></a>
                 <div class="card-body">
-                    <h6 class="card-title text-center">Infinix Mobile</h6>
+                    <h6 class="card-title text-center"><a href="#" class="text-dark text-decoration-none">Infinix Mobile</a></h6>
                     <h5 class="card-title text-center">Rs. 15,499.00</h5>
                 </div>
                 </div>
@@ -57,7 +60,7 @@
                 <div class="card">
                 <a href="#"><img src="{{ asset ('assets/images/products/3p.jpg') }}" class="card-img-top" alt="..."></a>
                 <div class="card-body">
-                    <h6 class="card-title text-center">Shoes</h6>
+                    <h6 class="card-title text-center"><a href="#" class="text-dark text-decoration-none">Shoes</a></h6>
                     <h5 class="card-title text-center">Rs. 1499.00</h5>
                 </div>
                 </div>
@@ -67,7 +70,7 @@
                 <div class="card">
                 <a href="#"><img src="{{ asset ('assets/images/products/4p.jpg') }}" class="card-img-top" alt="..."></a>
                 <div class="card-body">
-                    <h6 class="card-title text-center">Electronics</h6>
+                    <h6 class="card-title text-center"><a href="#" class="text-dark text-decoration-none">Electronics</a></h6>
                     <h5 class="card-title text-center">Rs. 1000.00</h5>
                 </div>
                 </div>
@@ -75,4 +78,164 @@
         </div>
     </div>
 </section>
+
+<!-- Best Of Electronics -->
+
+<section class="my-5">
+    <div class="container">
+
+    <div class="d-flex">
+        <div class="flex-grow-1"><h2>Best Of Electronics</h2></div>
+        <div><a href="#" class="btn btn-sm theme-orange-btn text-light">View All</a></div>
+    </div>
+        <div class="row theme-product">
+            <div class="col-lg-3">
+                <div class="card">
+                <a href="#"><img src="{{ asset ('assets/images/products/3p.jpg') }}" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                    <h6 class="card-title text-center"><a href="#" class="text-dark text-decoration-none">Shoes</a></h6>
+                    <h5 class="card-title text-center">Rs. 499.00</h5>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card">
+                <a href="#"><img src="{{ asset ('assets/images/products/5p.jpg') }}" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                    <h6 class="card-title text-center"><a href="#" class="text-dark text-decoration-none">Chairs</a></h6>
+                    <h5 class="card-title text-center">Rs. 9,499.00</h5>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card">
+                <a href="#"><img src="{{ asset ('assets/images/products/2p.jpg') }}" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                    <h6 class="card-title text-center"><a href="#" class="text-dark text-decoration-none">Infinix Mobile</a></h6>
+                    <h5 class="card-title text-center">Rs. 41,499.00</h5>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card">
+                <a href="#"><img src="{{ asset ('assets/images/products/4p.jpg') }}" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                    <h6 class="card-title text-center"><a href="#" class="text-dark text-decoration-none">Electronics</a></h6>
+                    <h5 class="card-title text-center">Rs. 1000.00</h5>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Popular Categories -->
+
+<section class="my-5">
+    <div class="container">
+
+    <div class="d-flex">
+        <div class="flex-grow-1"><h2>Popular Categories</h2></div>
+        <div><a href="#" class="btn btn-sm theme-orange-btn text-light">View All</a></div>
+    </div>
+        <div class="row theme-product">
+            <div class="col-lg-3">
+                <div class="card">
+                <a href="#"><img src="{{ asset ('assets/images/products/3p.jpg') }}" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                    <h6 class="card-title text-center"><a href="#" class="text-dark text-decoration-none">Shoes</a></h6>
+                    <h5 class="card-title text-center">Rs. 499.00</h5>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card">
+                <a href="#"><img src="{{ asset ('assets/images/products/5p.jpg') }}" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                    <h6 class="card-title text-center"><a href="#" class="text-dark text-decoration-none">Chairs</a></h6>
+                    <h5 class="card-title text-center">Rs. 9,499.00</h5>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card">
+                <a href="#"><img src="{{ asset ('assets/images/products/2p.jpg') }}" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                    <h6 class="card-title text-center"><a href="#" class="text-dark text-decoration-none">Infinix Mobile</a></h6>
+                    <h5 class="card-title text-center">Rs. 41,499.00</h5>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card">
+                <a href="#"><img src="{{ asset ('assets/images/products/4p.jpg') }}" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                    <h6 class="card-title text-center"><a href="#" class="text-dark text-decoration-none">Electronics</a></h6>
+                    <h5 class="card-title text-center">Rs. 1000.00</h5>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Recently viewed Products -->
+
+<section class="my-5">
+    <div class="container">
+
+    <div class="d-flex">
+        <div class="flex-grow-1"><h2>Recently viewed</h2></div>
+        <div><a href="#" class="btn btn-sm theme-orange-btn text-light">View All</a></div>
+    </div>
+        <div class="row theme-product">
+            <div class="col-lg-3">
+                <div class="card">
+                <a href="#"><img src="{{ asset ('assets/images/products/3p.jpg') }}" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                    <h6 class="card-title text-center"><a href="#" class="text-dark text-decoration-none">Shoes</a></h6>
+                    <h5 class="card-title text-center">Rs. 499.00</h5>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card">
+                <a href="#"><img src="{{ asset ('assets/images/products/5p.jpg') }}" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                    <h6 class="card-title text-center"><a href="#" class="text-dark text-decoration-none">Chairs</a></h6>
+                    <h5 class="card-title text-center">Rs. 9,499.00</h5>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card">
+                <a href="#"><img src="{{ asset ('assets/images/products/2p.jpg') }}" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                    <h6 class="card-title text-center"><a href="#" class="text-dark text-decoration-none">Infinix Mobile</a></h6>
+                    <h5 class="card-title text-center">Rs. 41,499.00</h5>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card">
+                <a href="#"><img src="{{ asset ('assets/images/products/4p.jpg') }}" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                    <h6 class="card-title text-center"><a href="#" class="text-dark text-decoration-none">Electronics</a></h6>
+                    <h5 class="card-title text-center">Rs. 1000.00</h5>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 @endsection
