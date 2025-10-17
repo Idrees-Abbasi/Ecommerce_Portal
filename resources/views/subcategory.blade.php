@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @push('title')
-<title>Category</title>
+<title> Sub-Category</title>
 @endpush
 
 @section('content')
@@ -16,9 +16,9 @@
         <div class="row theme-product">
             <div class="col-lg-3 mb-4">
                 <div class="card">
-                <a href="#"><img src="{{ asset ('assets/images/products/5p.jpg') }}" class="card-img-top" alt="..."></a>
+                <a href="{{ url('category/electronics/tv/detail') }}"><img src="{{ asset ('assets/images/products/5p.jpg') }}" class="card-img-top" alt="..."></a>
                 <div class="card-body">
-                    <h6 class="card-title text-center"><a href="#" class="text-dark text-decoration-none">Chairs</a></h6>
+                    <h6 class="card-title text-center"><a href="{{ url('category/electronics/tv/detail') }}" class="text-dark text-decoration-none">Chairs</a></h6>
                     <h5 class="card-title text-center">Rs. 11,499.00</h5>
                 </div>
                 </div>

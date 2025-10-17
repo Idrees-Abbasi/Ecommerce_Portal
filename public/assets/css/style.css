@@ -44,3 +44,7 @@
   image-rendering: crisp-edges; /* helps for some browsers */
 }
 
+.checked{
+    color: #FF6600;
+}
+
