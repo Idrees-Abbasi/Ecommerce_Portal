@@ -15,8 +15,6 @@
             <div class="col-lg-4 my-4">
             <img src="{{ asset('assets/images/products/5p.jpg') }}" class="rounded img-fluid" style="width: 300px; height: auto;">
             </div>
-
-
             <div class="col-lg-8">
                 <div>
                     <h2> Chairs </h2>
