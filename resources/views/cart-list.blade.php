@@ -123,6 +123,7 @@
             </div>
             <div class="mt-4"><a class="btn theme-orange-btn text-light rounded-pill w-100" >Proceed to check-out <i class="fa-solid fa-arrow-right"></i></a></div>
             </div>
+            
 
         </div>
     </div>
