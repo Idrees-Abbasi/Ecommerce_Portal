@@ -21,14 +21,14 @@
         <form class="d-flex" role="search">
         <div class="input-group">
         <input class="form-control form-control-sm" style="width:350px"search" placeholder="Search for products" aria-label="Search"/>
-        <button class="btn btn-light text-secondary btn-sm" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <button class="btn btn-light text-secondary btn-sm rounded-pill" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
         </div>
       </form>
     </div>
     <div>
       <a href="#" class="text-decoration-none text-light">Become a Seller</a>
-      <a href="#" class="btn theme-green-btn btn-sm text-light"><i class="fa-solid fa-cart-shopping"></i>cart</a>
-      <a href="#" class="btn theme-orange-btn btn-sm text-light"><i class="fa-solid fa-user"></i>Login</a>
+      <a href="#" class="btn theme-green-btn btn-sm text-light rounded-pill"><i class="fa-solid fa-cart-shopping"></i>cart</a>
+      <a href="#" class="btn theme-orange-btn btn-sm text-light rounded-pill"><i class="fa-solid fa-user"></i>Login</a>
     </div>
   </div>
 </nav>
