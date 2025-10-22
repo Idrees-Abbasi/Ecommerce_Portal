@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @push('title')
-<title>Product-Detail</title>
+<title>Cart-List</title>
 @endpush
 
 @section('content')

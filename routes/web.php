@@ -7,6 +7,7 @@ use App\Http\Controllers\SubcategoryController;
 use App\Http\Controllers\ProductdetailController;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\CheckoutController;
+use App\Http\Controllers\UserController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -23,3 +24,5 @@ Route::get('/category/electronics/tv/{slug}',[ProductdetailController::class,'de
 Route::get('/cart-list/{slug}',[CartController::class,'list']);
 
 Route::get('/checkout/{slug}',[CheckoutController::class,'checkout']);
+
+Route::get('register',[UserController::class,'register']);

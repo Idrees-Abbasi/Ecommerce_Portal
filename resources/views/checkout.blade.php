@@ -2,7 +2,7 @@
 @extends('layouts.main')
 
 @push('title')
-<title>Product-Detail</title>
+<title>Checkout-page</title>
 @endpush
 
 @section('content')
