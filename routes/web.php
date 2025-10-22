@@ -26,3 +26,5 @@ Route::get('/cart-list/{slug}',[CartController::class,'list']);
 Route::get('/checkout/{slug}',[CheckoutController::class,'checkout']);
 
 Route::get('register',[UserController::class,'register']);
+
+Route::get('register1',[UserController::class,'register1']);
