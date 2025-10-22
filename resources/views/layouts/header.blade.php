@@ -28,7 +28,7 @@
     <div>
       <a href="#" class="text-decoration-none text-light">Become a Seller</a>
       <a href="{{ url('cart-list/product') }}" class="btn theme-green-btn btn-sm text-light rounded-pill"><i class="fa-solid fa-cart-shopping"></i>cart</a>
-      <a href="#" class="btn theme-orange-btn btn-sm text-light rounded-pill"><i class="fa-solid fa-user"></i>Login</a>
+      <a href="{{ url('login') }}" class="btn theme-orange-btn btn-sm text-light rounded-pill"><i class="fa-solid fa-user"></i>Login</a>
     </div>
   </div>
 </nav>
