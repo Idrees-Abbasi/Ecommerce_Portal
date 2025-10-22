@@ -68,9 +68,6 @@
                     </div>
                     <div class="col-lg-12 mb-3">
                         <textarea class="form-control" placeholder="Your Address" rows="4"></textarea>
-                    </div>
-                        <div><a class="btn theme-orange-btn text-light rounded-pill">Post a comment <i class="fa-solid fa-arrow-right"></i></a></div>
-                    </div>
                 </form>
             </div>
         </div>
@@ -82,16 +79,15 @@
 <section>
     <div class="container">
         <h2> Yours Orders </h2>
-        <div class="row my-5">
+        <div class="row mb-5">
             <div class="col-lg-12">
             <table class="table">
                 <thead>
                     <tr>
-                    <th scope="col"><h4>Product</h4></th>
-                    <th scope="col"><h4>Price</h4></th>
-                    <th scope="col"><h4>Quantity</h4></th>
-                    <th scope="col"><h4>Sub-Total</h4></th>
-                    <th scope="col"><h4>Remove</h4></th>
+                    <th scope="col"><h5>Product</h5></th>
+                    <th scope="col"><h5>Price</h5></th>
+                    <th scope="col"><h5>Quantity</h5></th>
+                    <th scope="col"><h5>Sub-Total</h5></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -105,19 +101,9 @@
                         </div>
                     </th>
                     <td>Rs. 1499.00</td>
-                    <td> <div class="d-flex flex-row mb-3">
-                                {{-- <div class="p-1"><h6>Quantity</h6></div> --}}
-                                <div class="p-1">
-                                    <span class="btn btn-secondary btn-sm rounded-start-pill"><i class="fa-solid fa-minus"></i></span>
-                                    <span class="mx-2">01</span>
-                                    <span class="btn btn-secondary btn-sm rounded-end-pill"><i class="fa-solid fa-plus"></i></span>
-                                </div>
-                            </div>
-                        </div></td>
+                    <td>01</td>
                     <td>Rs. 1499.00</td>
-                    <td><button type="button" class="btn-close" aria-label="Close"></button></td>
                     </tr>
-
                     <tr>
                     <th>
                         <div class="d-flex">
@@ -128,17 +114,8 @@
                         </div>
                     </th>
                     <td>Rs. 11,499.00</td>
-                    <td> <div class="d-flex flex-row mb-3">
-                                {{-- <div class="p-1"><h6>Quantity</h6></div> --}}
-                                <div class="p-1">
-                                    <span class="btn btn-secondary btn-sm rounded-start-pill"><i class="fa-solid fa-minus"></i></span>
-                                    <span class="mx-2">01</span>
-                                    <span class="btn btn-secondary btn-sm rounded-end-pill"><i class="fa-solid fa-plus"></i></span>
-                                </div>
-                            </div>
-                        </div></td>
+                    <td>02</td>
                     <td>Rs. 11,499.00</td>
-                    <td><button type="button" class="btn-close" aria-label="Close"></button></td>
                     </tr>
 
                     <tr>
@@ -151,18 +128,15 @@
                         </div>
                     </th>
                     <td>Rs. 15,499.00</td>
-                    <td> <div class="d-flex flex-row mb-3">
-                                {{-- <div class="p-1"><h6>Quantity</h6></div> --}}
-                                <div class="p-1">
-                                    <span class="btn btn-secondary btn-sm rounded-start-pill"><i class="fa-solid fa-minus"></i></span>
-                                    <span class="mx-2">01</span>
-                                    <span class="btn btn-secondary btn-sm rounded-end-pill"><i class="fa-solid fa-plus"></i></span>
-                                </div>
-                            </div>
-                        </div></td>
+                    <td>01</td>
                     <td>Rs. 15,499.00</td>
-                    <td><button type="button" class="btn-close" aria-label="Close"></button></td>
                     </tr>
+
+                    <tr>
+                    <th colspan="3"><h5>Total</h5></th>
+                    <th><h5>Rs. 28,499.00</h5></th>
+                    </tr>
+
                 </tbody>
             </table>
             </div>
@@ -170,7 +144,35 @@
     </div>
 </section>
 
+<!-- Payment -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+                    <label class="form-check-label" for="radioDefault1">
+                        <h5>UPI</h5>
+                    </label>
+                    </div>
+                    <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2">
+                    <label class="form-check-label" for="radioDefault2">
+                        <h5>Credit/Debit Card</h5>
+                    </label>
+                     <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
+                    <label class="form-check-label" for="radioDefault2">
+                        <h5>Cash on delivery</h5>
+                    </label>
+                </div>
 
+                <div class="mt-4"><a href="{{ url('checkout/product') }}" class="btn theme-orange-btn text-light rounded-pill w-100 my-4" >Place Order</a></div>
+            </div>
 
+            </div>
+        </div>
+    </div>
+</section>
 @endsection
 
