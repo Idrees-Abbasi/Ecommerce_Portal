@@ -167,7 +167,7 @@
                     </label>
                 </div>
 
-                <div class="mt-4"><a href="{{ url('checkout/product') }}" class="btn theme-orange-btn text-light rounded-pill w-100 my-4" >Place Order</a></div>
+                <div class="mt-4"><a href="{{ url('checkout/product') }}" class="btn theme-orange-btn text-light rounded-pill w-100 my-4 px-3 py-2" >Place Order</a></div>
             </div>
 
             </div>

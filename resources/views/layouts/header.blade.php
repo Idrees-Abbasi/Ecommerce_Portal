@@ -27,15 +27,15 @@
     </div>
     <div>
       <a href="#" class="text-decoration-none text-light">Become a Seller</a>
-      <a href="{{ url('cart-list/product') }}" class="btn theme-green-btn btn-sm text-light rounded-pill"><i class="fa-solid fa-cart-shopping"></i>cart</a>
-      <a href="{{ url('login') }}" class="btn theme-orange-btn btn-sm text-light rounded-pill"><i class="fa-solid fa-user"></i>Login</a>
+      <a href="{{ url('cart-list/product') }}" class="btn theme-green-btn btn-sm text-light rounded-pill px-3 py-2"><i class="fa-solid fa-cart-shopping"></i>cart</a>
+      <a href="{{ url('login') }}" class="btn theme-orange-btn btn-sm text-light rounded-pill px-3 py-2"><i class="fa-solid fa-user"></i>Login</a>
     </div>
   </div>
 </nav>
 
 <!-- Category nav-->
 
-<nav class="navbar navbar-expand-lg theme-navbar-light">
+<nav class="navbar navbar-expand-lg shadow p-3 bg-body-tertiary rounded">
   <div class="container-fluid">
     <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
       <ul class="nav">

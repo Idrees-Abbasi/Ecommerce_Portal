@@ -47,8 +47,8 @@
                         Cicero are also reproduced in their exact original form, accompanied by English
                         versions from the 1914 translation by H. Rackham.</p>
                         <div>
-                            <a class="btn theme-green-btn text-light rounded-pill me-1">Add to cart</a>
-                            <a class="btn theme-orange-btn text-light rounded-pill">Buy Now</a>
+                            <a class="btn theme-green-btn text-light rounded-pill me-1 px-3 py-2">Add to cart</a>
+                            <a class="btn theme-orange-btn text-light rounded-pill px-3 py-2">Buy Now</a>
                         </div>
                 </div>
             </div>
@@ -77,7 +77,7 @@
 
     <div class="d-flex">
         <div class="flex-grow-1"><h2>Related Products</h2></div>
-        <div><a href="#" class="btn btn-sm theme-orange-btn text-light rounded-pill">View All</a></div>
+        <div><a href="#" class="btn btn-sm theme-orange-btn text-light rounded-pill px-3 py-2">View All</a></div>
     </div>
         <div class="row theme-product">
             <div class="col-lg-3">
@@ -142,7 +142,7 @@
                     </div>
                     <p>used since the 1500s. It is a sequence of Latin words that do not form coherent sentences, serving as placeholder text in graphic design, publishing, and web development. The purpose of Lorem Ipsum is to fill spaces in layouts before the final content is available, allowing designers to focus on visual elements without being distracted by readable text. You can easily generate Lorem Ipsum text using various online tools.</p>
                 </div>
-                <div><a class="btn theme-orange-btn btn-sm text-light rounded-pill">Replay</a></div>
+                <div><a class="btn theme-orange-btn btn-sm text-light rounded-pill px-3 py-2">Replay</a></div>
 
                 <div class="col-lg-1 mt-4">
                         <img src="{{ asset('assets/images/products/5p.jpg') }}" class="rounded- rounded-circle img-fluid" style="width: 300px; height: auto;">
@@ -164,7 +164,7 @@
                 </div>
                     <p>used since the 1500s. It is a sequence of Latin words that do not form coherent sentences, serving as placeholder text in graphic design, publishing, and web development. The purpose of Lorem Ipsum is to fill spaces in layouts before the final content is available, allowing designers to focus on visual elements without being distracted by readable text. You can easily generate Lorem Ipsum text using various online tools.</p>
                 </div>
-                <div><a class="btn theme-orange-btn btn-sm text-light rounded-pill">Replay</a></div>
+                <div><a class="btn theme-orange-btn btn-sm text-light rounded-pill px-3 py-2">Replay</a></div>
             </section>
 
             <!-- Add a Review -->
@@ -192,7 +192,7 @@
                                 <div class="col-lg-12 mb-3">
                                     <textarea class="form-control  form-control-lg" placeholder="Your Message" rows="4"></textarea>
                                 </div>
-                                 <div><a class="btn theme-orange-btn text-light rounded-pill">Post a comment <i class="fa-solid fa-arrow-right"></i></a></div>
+                                 <div><a class="btn theme-orange-btn text-light rounded-pill px-3 py-2">Post a comment <i class="fa-solid fa-arrow-right"></i></a></div>
                                 </div>
                             </form>
                         </div>
