@@ -21,5 +21,10 @@ class UserController extends Controller
     public function login1(){
         return view('login1');
     }
+
+    // User Dashboard function
+        public function index(){
+        return view('user/index');
+    }
 }
 
