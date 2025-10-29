@@ -39,7 +39,7 @@
                                 <div class="d-flex">
                                     <h4>Recent Orders</h4>
                                     <div class="ms-auto">
-                                    <a class="text-decoration-none btn btn-dark btn-sm">View All</a>
+                                    <a href="{{ url('order-history') }}" class="text-decoration-none btn btn-dark btn-sm">View All</a>
                                     </div>
                                 </div>
                                 <div>
@@ -59,27 +59,27 @@
                                             <td>Rs. 15,000.00</td>
                                             <td>
                                                 <span class="badge rounded-pill text-bg-warning">Processing</span>
-                                                <a href="#" class="text-decoration-none mx-2">View Details</a>
+                                                <a href="{{ url('detail') }}" class="text-decoration-none mx-2">View Details</a>
                                             </td>
                                             </tr>
 
                                             <tr>
-                                            <th scope="row">001</th>
-                                            <td>05 October 2025</td>
-                                            <td>Rs. 15,000.00</td>
+                                            <th scope="row">002</th>
+                                            <td>06 October 2025</td>
+                                            <td>Rs. 16,000.00</td>
                                             <td>
                                                 <span class="badge rounded-pill text-bg-info">On the way</span>
-                                                <a href="#" class="text-decoration-none mx-2">View Details</a>
+                                                <a href="{{ url('detail') }}" class="text-decoration-none mx-2">View Details</a>
                                             </td>
                                             </tr>
 
                                             <tr>
-                                            <th scope="row">001</th>
-                                            <td>05 October 2025</td>
-                                            <td>Rs. 15,000.00</td>
+                                            <th scope="row">003</th>
+                                            <td>07 October 2025</td>
+                                            <td>Rs. 17,000.00</td>
                                             <td>
                                                 <span class="badge rounded-pill text-bg-success">Delivered</span>
-                                                <a href="#" class="text-decoration-none mx-2">View Details</a>
+                                                <a href="{{ url('detail') }}" class="text-decoration-none mx-2">View Details</a>
                                             </td>
                                             </tr>
                                         </tbody>

@@ -4,16 +4,16 @@
                     <div class="sb-sidenav-menu">
                         <div class="nav">
 
-                            <a class="nav-link" href="index.html">
+                            <a class="nav-link" href="{{ url('user') }}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Dashboard
                             </a>
 
-                            <a class="nav-link" href="charts.html">
+                            <a class="nav-link" href="{{ url('order-history') }}">
                                 <div class="sb-nav-link-icon"><i class="fa-solid fa-clock"></i></div>
                                 Order History
                             </a>
-                            <a class="nav-link" href="tables.html">
+                            <a class="nav-link" href="{{ url('settings') }}">
                                 <div class="sb-nav-link-icon"><i class="fa-solid fa-gear"></i></div>
                                 Settings
                             </a>
