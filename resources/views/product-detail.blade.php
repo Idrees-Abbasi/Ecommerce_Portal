@@ -76,7 +76,7 @@
     <div class="container">
 
     <div class="d-flex">
-        <div class="flex-grow-1"><h2>Related Products</h2></div>
+        <div class="grow"><h2>Related Products</h2></div>
         <div><a href="#" class="btn btn-sm theme-orange-btn text-light rounded-pill px-3 py-2">View All</a></div>
     </div>
         <div class="row theme-product">
@@ -152,7 +152,7 @@
                     <h4>Umair Abbasi</h4>
                 <div>
                 <div class="d-flex">
-                    <div class="flex-grow-1"><h6>19 august 2025</h6></div>
+                    <div class="grow"><h6>19 august 2025</h6></div>
                     <div>
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>

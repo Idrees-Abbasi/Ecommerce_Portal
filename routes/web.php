@@ -35,4 +35,7 @@ Route::get('login1',[UserController::class,'login1']);
 
 // User Dashboard routes starts here
 Route::get('user/',[UserController::class,'index']);
+
 Route::get('order-history/',[UserController::class,'history']);
+
+Route::get('detail/',[UserController::class,'detail']);

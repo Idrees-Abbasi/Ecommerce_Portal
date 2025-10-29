@@ -30,5 +30,9 @@ class UserController extends Controller
     public function history(){
         return view('user/order-history');
     }
+
+    public function detail(){
+        return view('user/detail');
+    }
 }
 
