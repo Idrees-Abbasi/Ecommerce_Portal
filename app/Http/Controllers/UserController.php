@@ -34,5 +34,9 @@ class UserController extends Controller
     public function detail(){
         return view('user/detail');
     }
+
+    public function settings(){
+        return view('user/settings');
+    }
 }
 

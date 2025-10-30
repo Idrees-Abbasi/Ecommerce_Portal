@@ -8,9 +8,9 @@
 
             <div id="layoutSidenav_content">
                 <main>
-                    <div class="container-fluid px-4">
-
-                        <div class="row my-5">
+                    <div class="container-fluid px-4 mt-4">
+                        <div class="card p-4">
+                        <div class="row">
                             <div class="col-xl-12 col-md-12">
                                 <div class="d-flex">
                                     <h4>Order History</h4>
@@ -212,6 +212,7 @@
                                     </nav>
                                 </div>
                             </div>
+                        </div>
                         </div>
                     </div>
                 </main>
